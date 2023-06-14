@@ -41,6 +41,7 @@ async function fetchData(urlApi) {
     } else {
       console.log('No se encontraron datos de video válidos');
     }
+    content.innerHTML = view;
   } catch (error) {
     console.log(error);
   }
